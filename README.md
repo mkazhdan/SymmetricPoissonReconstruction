@@ -1,10 +1,4 @@
 <center><h2>Symmetric Poisson Reconstruction (Version 1.00)</h2></center>
-<center>
-<a href="#LINKS">links</a>
-<a href="#EXECUTABLES">executables</a>
-<a href="#USAGE">usage</a>
-<a href="#CHANGES">changes</a>
-</center>
 <hr>
 This software supports reconstruction of surfaces from unoriented points.
 <hr>

@@ -16,7 +16,7 @@ This software supports reconstruction of surfaces from unoriented points.
 <b>Executables: </b>
 <a href="http://www.cs.jhu.edu/~misha/Code/SymmetricPoissonRecon/Version1.00/SymPR.x64.zip">Win64</a><br>
 <b>Source Code:</b>
-<a href="http://www.cs.jhu.edu/~misha/Code/SymmetricPoissonRecon/Version1.00/SymPR.zip">ZIP</a> <a href="https://github.com/mkazhdan/SymmetricPoissonRecon">GitHub</a><br>
+<a href="http://www.cs.jhu.edu/~misha/Code/SymmetricPoissonRecon/Version1.00/SymPR.zip">ZIP</a> <a href="https://github.com/mkazhdan/SymmetricPoissonReconstruction">GitHub</a><br>
 <!--
 <b>Older Versions:</b>
 <a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version9.011/">V9.011</a>,

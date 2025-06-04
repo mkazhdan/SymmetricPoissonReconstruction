@@ -1,0 +1,11 @@
+.vs/
+x64/
+Obj/
+Bin/
+SymPR/
+SymPR.x64/
+*/.vs/
+*/x64/
+*.user
+*.pdb
+*.zip

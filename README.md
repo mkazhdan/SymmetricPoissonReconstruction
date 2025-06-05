@@ -5,7 +5,10 @@ This software supports reconstruction of surfaces from unoriented points.
 <a name="LINKS"><b>LINKS</b></a><br>
 <ul>
 <b>Papers:</b>
+<!--
 <a href="https://www.cs.jhu.edu/~misha/MyPapers/SGP25.pdf">[Kohlbrenner, Liu, Alexa, and Kazhdan, 2025]</a>,
+-->
+[Kohlbrenner, Liu, Alexa, and Kazhdan, 2025],
 <br>
 <b>Executables: </b>
 <a href="https://www.cs.jhu.edu/~misha/Code/SymmetricPoissonRecon/Version1.00/SymPR.x64.zip">Win64</a><br>

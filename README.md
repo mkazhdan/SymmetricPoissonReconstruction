@@ -1,44 +1,17 @@
-<center><h2>Symmetric Poisson Reconstruction (Version 1.00)</h2></center>
+center><h2>Symmetric Poisson Reconstruction (Version 1.00)</h2></center>
 <hr>
 This software supports reconstruction of surfaces from unoriented points.
 <hr>
 <a name="LINKS"><b>LINKS</b></a><br>
 <ul>
 <b>Papers:</b>
-<!--
-<a href="https://www.cs.jhu.edu/~misha/MyPapers/SGP25.pdf">[Kohlbrenner, Liu, Alexa, and Kazhdan, 2025]</a>,
--->
-[Kohlbrenner, Liu, Alexa, and Kazhdan, 2025],
+<a href="https://www.cs.jhu.edu/~misha/MyPapers/SGP25.pdf">[Kohlbrenner, Liu, Alexa, and Kazhdan, 2025]</a>
 <br>
 <b>Executables: </b>
 <a href="https://www.cs.jhu.edu/~misha/Code/SymmetricPoissonRecon/Version1.00/SymPR.x64.zip">Win64</a><br>
 <b>Source Code:</b>
 <a href="https://www.cs.jhu.edu/~misha/Code/SymmetricPoissonRecon/Version1.00/SymPR.zip">ZIP</a> <a href="https://github.com/mkazhdan/SymmetricPoissonReconstruction">GitHub</a><br>
-<!--
-<b>Older Versions:</b>
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version9.011/">V9.011</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version9.01/">V9.01</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version9.0/">V9.0</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version8.0/">V8.0</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version7.0/">V7.0</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version6.13a/">V6.13a</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version6.13/">V6.13</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version6.12/">V6.12</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version6.11/">V6.11</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version6.1/">V6.1</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version6/">V6</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version5.71/">V5.71</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version5.6/">V5.6</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version5.5a/">V5.5a</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version5.1/">V5.1</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version5/">V5</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version4.51/">V4.51</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version4.5/">V4.5</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version4/">V4</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version3/">V3</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version2/">V2</a>,
-<a href="http://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version1/">V1</a>
--->
+
 </ul>
 <hr>
 <a name="EXECUTABLES"><b>EXECUTABLES</b></a><br>
@@ -60,9 +33,9 @@ vertices with the x-, y-, and z-coordinates of the positions encoded by the prop
 Otherwise, the file should be an ascii file with groups of 3, white space delimited, numbers: the x-, y-, and z-coordinates of the point's position. (No information about the number of oriented point samples should be specified.)<br> 
 
 </dd><dt>[<b>--out</b> &lt;<i>output mesh/implicit-function</i>&gt;]
-</dt><dd> This string is the name of the file to which the output will be written (output in <a href="http://www.cc.gatech.edu/projects/large_models/ply.html">PLY</a> format).<br>
+</dt><dd> This string is the name of the file to which the output will be written.<br>
 <UL>
-<LI>If the file extension is <i>.ply</i>, the output will be a polygon/triangle mesh.<br>
+<LI>If the file extension is <i>.ply</i>, the output will be a polygon/triangle mesh (output in <a href="http://www.cc.gatech.edu/projects/large_models/ply.html">PLY</a> format).<br>
 <LI>If the file extesnion is <i>.grid</i>, the output will be regular grid sampling the implicit function. The file will consist of seven header lines in ASCII describing the contents, following by the grid values in binary.<BR>
 <UL>
 <LI>The header looks like:<PRE><CODE>G3
